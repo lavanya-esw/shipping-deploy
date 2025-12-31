@@ -1,0 +1,6 @@
+deployment:
+  imageRepo: lavanyaesw/shipping
+  imageVersion: IMAGE_VERSION
+service:
+  type: ClusterIP
+  servicePort: 8080
